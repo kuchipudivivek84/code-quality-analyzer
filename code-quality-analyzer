@@ -1,0 +1,57 @@
+💻 Code Quality Analyzer
+🚀 Live Demo
+
+🔗 https://code-quality-analyzer-7869vhbc24dmwzb6cy5jmg.streamlit.app/
+
+📌 Overview
+
+The Code Quality Analyzer is a Python-based web application that evaluates the quality of Python code using static analysis and complexity metrics. It helps developers identify issues, improve readability, and follow best coding practices.
+
+🎯 Features
+📝 Paste Python code and analyze instantly
+📊 Quality score (out of 10)
+⚠️ Detect coding issues (naming, formatting, etc.)
+🔢 Cyclomatic complexity calculation
+💡 Clean and user-friendly interface
+🛠️ Tech Stack
+Python
+Streamlit
+Pylint (static code analysis)
+Radon (complexity analysis)
+⚙️ How It Works
+User pastes Python code into the app
+The system runs static analysis using Pylint
+Code complexity is calculated using Radon
+A quality score is generated based on issues and complexity
+Results are displayed with suggestions
+🧪 Example Input
+a=5
+b=10
+if a<b:
+ print("Hello")
+📊 Example Output
+Quality Score: 5 / 10
+Issues:
+Bad indentation
+Missing docstring
+Invalid variable naming
+Complexity: 0
+▶️ Run Locally
+pip install -r requirements.txt
+streamlit run app.py
+🌐 Deployment
+
+This application is deployed using Streamlit Community Cloud and is accessible globally via the link above.
+
+📈 Future Improvements
+📂 Upload .py files
+📊 Visual charts for analysis
+📄 Downloadable report (PDF)
+🤖 AI-based code suggestions
+👨‍💻 Author
+
+Your Name
+
+⭐ Conclusion
+
+This project demonstrates the use of static analysis tools to evaluate code quality, helping developers write cleaner and more maintainable code.
